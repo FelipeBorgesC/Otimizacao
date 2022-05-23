@@ -13,11 +13,11 @@
 
 <h2 id="introducao-oag">
   
-[Introdução a Otimização - Algoritmos Genéticos](https://github.com/manoelakohler/DataMining/tree/main/01_An%C3%A1liseExplorat%C3%B3ria)
+[Introdução a Otimização - Algoritmos Genéticos](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%201%20-%20Conceitos%20B%C3%A1sicos%20Otimiza%C3%A7%C3%A3o)
   
 </h2>
 
-  - **Aula 01:** Introdução e noções básicas de otimização [`Aula 1 - OAG.pdf`](https://github.com/manoelakohler/DataMining/blob/main/01_An%C3%A1liseExplorat%C3%B3ria/mushroom.ipynb). Apresentação do conteúdo que é abordado ao longo do curso.
+  - **Aula 01:** Introdução e noções básicas de otimização [`Aula 1 - OAG.pdf`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%201%20-%20Conceitos%20B%C3%A1sicos%20Otimiza%C3%A7%C3%A3o/Aula%201%20-%20OAG.pdf). Apresentação do conteúdo que é abordado ao longo do curso.
     - Conceitos de otimização
     - Otimização por Algoritmos Genéticos 
       - Representação
@@ -29,11 +29,11 @@
 
 <h2 id="represent-decod-avaliacao">
   
-[Representação, Decodificação e Avaliação](https://github.com/manoelakohler/DataMining/tree/main/02_Pr%C3%A9Processamento)
+[Representação, Decodificação e Avaliação](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%202%20-%20Respresenta%C3%A7%C3%A3o%2C%20Decodifica%C3%A7%C3%A3o%20e%20Avalia%C3%A7%C3%A3o)
   
 </h2>
 
-  - **Aula 02:** Representação, Decodificação e Avaliação de Indíviduos [`Secom.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/02_Pr%C3%A9Processamento/Secom.ipynb). Nesta apresentação é abordado com maiores detalhes o processo de representação cromossômica e sua decodificação. Qual o propósito na representação do individuo e seus tipos. Além disso, apresentar as possíveis formas de avaliação dos individuos e o seu propósito.
+  - **Aula 02:** Representação, Decodificação e Avaliação de Indíviduos [`Aula 2 - OAG.pdf`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%202%20-%20Respresenta%C3%A7%C3%A3o%2C%20Decodifica%C3%A7%C3%A3o%20e%20Avalia%C3%A7%C3%A3o/Aula%202%20-%20OAG.pdf). Nesta apresentação é abordado com maiores detalhes o processo de representação cromossômica e sua decodificação. Qual o propósito na representação do individuo e seus tipos. Além disso, apresentar as possíveis formas de avaliação dos individuos e o seu propósito.
   
     - Representação Cromossômica
       - Tipos de representação
@@ -45,14 +45,14 @@
       - Windowing
 
 
-  - **Ferramenta Solver:** Apresentação e utilização da ferramenta Solver do Excel [`Secom.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/02_Pr%C3%A9Processamento/Secom.ipynb). Neste exemplo é abordado a utilização de um caso benchmark para a otimização de uma função matemática famosa, chamada F6. Essa função matemática é complexa e possui picos e vales muito próximos uns aos outros, o que caracteriza um problema de difícil otimização.
+  - **Ferramenta Solver:** Apresentação e utilização da ferramenta Solver do Excel [`Solução_F6.xlsx`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%202%20-%20Respresenta%C3%A7%C3%A3o%2C%20Decodifica%C3%A7%C3%A3o%20e%20Avalia%C3%A7%C3%A3o/Excel%20-%20Solver/Solu%C3%A7%C3%A3o_F6.xlsx). Neste exemplo é abordado a utilização de um caso benchmark para a otimização de uma função matemática famosa, chamada F6. Essa função matemática é complexa e possui picos e vales muito próximos uns aos outros, o que caracteriza um problema de difícil otimização.
 
     - A função não possui restrições
     - O objetivo é a maximização
     - O valor ótimo do problema é x = 0 e y = 0, resultando f(x,y) = 1
 
 
-- **Python usando DEAP:** Solução de um exemplo utilizando a biblioteca DEAP em python [`Secom.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/02_Pr%C3%A9Processamento/Secom.ipynb). Este exemplo utiliza a linguagem de python para resolver um problema de otimização. O propósito desse exercício é encontrar o maior valor possível de uma função matemática exemplo que está descrita no script. 
+- **Python usando DEAP:** Solução de um exemplo utilizando a biblioteca DEAP em python [`Aula_02_ExemploInicial.ipynb`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%202%20-%20Respresenta%C3%A7%C3%A3o%2C%20Decodifica%C3%A7%C3%A3o%20e%20Avalia%C3%A7%C3%A3o/Python%20-%20DEAP/Aula_02_ExemploInicial.ipynb). Este exemplo utiliza a linguagem de python para resolver um problema de otimização. O propósito desse exercício é encontrar o maior valor possível de uma função matemática exemplo que está descrita no script. 
 
     - A função não possui restrições
     - O objetivo é a maximização
