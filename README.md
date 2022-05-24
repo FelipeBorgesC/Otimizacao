@@ -8,8 +8,7 @@
 - [Operadores Genéticos](#operadores)
 - [Restrições](#restricao)
 - [Múltiplos Objetivos](#multi-obj)
-- [Regressão](#regressao)
-- [Previsão de Séries Temporais](#series)
+- [Material Complementar](#complementar)
 
 <h2 id="introducao-oag">
   
@@ -140,4 +139,8 @@
   
 </h2>
 
-
+<h2 id="complementar">
+  
+[Material Complementar](https://github.com/manoelakohler/DataMining/tree/main/05_Agrupamento)
+  
+</h2>
