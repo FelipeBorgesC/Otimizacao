@@ -5,7 +5,7 @@
   
 - [Introdução OAG](#introducao-oag)
 - [Representação, Decodificação e Avaliação](#represent-decod-avaliacao)
-- [Classificação](#classificacao)
+- [Operadores Genéticos](#operadores)
 - [Associação](#associação)
 - [Agurpoamento](#agrupamento)
 - [Regressão](#regressao)
@@ -59,37 +59,46 @@
     - O valor ótimo do problema pode ser visualizado através do gráfico presente no script
 
 
-<h2 id="classificacao">
+<h2 id="operadores">
   
-[Classificação](https://github.com/manoelakohler/DataMining/tree/main/03_Classifica%C3%A7%C3%A3o)
+[Operadores Genéticos](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%203%20-%20Operadores%20Gen%C3%A9ticos)
   
 </h2>
 
- - **Análise de Crédito Bancário:** Entendimento, pré processamento e classificação de uma base de análise de crédito [`Secom.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/02_Pr%C3%A9Processamento/Secom.ipynb). A base de dados contém 2077 exemplos de créditos concedidos ou não. Possui 11 atributos de entrada e 2 classes de saída. A saída indica se o cliente pagou o empréstimo (=1) ou se não pagou (=0). 
+ - **Aula 03:** Operadores Genéticos: Seleção, Cruzamento e Mutação [`Aula 3 - OAG.pdf`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%203%20-%20Operadores%20Gen%C3%A9ticos/Aula%203%20-%20OAG.pdf). Conteúdo apresentado sobre os operadores genéticos e suas variações. Fluxograma do processo evolutivo e explicação detalhada das etapas de seleção, cruzamento e seleção. Além disso, são apresentadas as técnicas de melhoria do processo evolutivo.
  
-    - Medidas resumo para análise exploratória      
-    - Pré processamento
-      - Normalização
-    - Inferência (classificação)
-      - SVM
-      - Árvore de Decisão
-      - Random Forest
-    - Tuning de hiperparâmetros
-      - GridSearch
+    - Fluxograma do ciclo evolutivo      
+    - Seleção
+    - Cruzamento
+      - 1 ponto de corte
+      - N pontos de corte
+      - Uniforme
+      - Baseado em maioria
+    - Mutação
+      - Único bit
+      - Uniforme
+    - Seleção de Operadores
+    - Elitismo
+    - Steady State
 
 
- - **Câncer de Mama:** Entendimento, pré processamento e classificação de uma base de análise de crédito [`Credito_SVM.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_SVM.ipynb), [`Credito_AD.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_AD.ipynb) e [`Credito_RF.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_RF.ipynb). Base de dados de características de tumores de mama, como raio, textura, perímetro e área do tumor, totalizando 30 atributos. A base consite em 569 registros de tumores (357 benignas e 212 malignas).
+ - **Resolução Exercícios:** Resolução dos exercícios abordados na aula anterior [`Aula 2 Resolvido.xlsx`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%203%20-%20Operadores%20Gen%C3%A9ticos/Resolu%C3%A7%C3%A3o%20Aula%202/Aula%202%20Resolvido.xlsx). Respostas dos exercicios comentados na aula 02.
  
-    - Medidas resumo para análise exploratória      
-    - Pré processamento
-      - Normalização
-    - Inferência (classificação)
-      - KNN
-      - Regressão Logística
-    - Tuning de hiperparâmetros
-      - GridSearch
-    - Pós procecssamento
-      - Análise das confianças nas inferências para tornar a inferência mais conservadora, ou seja, evitar classificar um tumor maligno como benigno (o pior caso de erro).
+    - Normalização      
+    - Windowing
+
+
+ - **Resolução Rainhas:** Resolução do exercício das rainhas abordado na aula anterior [`Rainhas.xlsx`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%203%20-%20Operadores%20Gen%C3%A9ticos/Resolu%C3%A7%C3%A3o%20Rainhas/Rainhas.xlsx). Apresentação de diversas soluções possíveis para o problema das rainhas.
+ 
+    - Representações Incomuns     
+    - Alternativas de Funções Objetivo
+
+- **Exercício Telecom:** Exercicio para praticar sobre alocação de antenas de telecomunicações [`Exercicio Telecom.pdf`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%203%20-%20Operadores%20Gen%C3%A9ticos/Telecom/Exercicio%20Telecom.pdf). Exercicio para praticar os conhecimentos de otimização. Identificar os principais pilares para aplicação de um otimizador. Buscar resolver o problema através dos otimizadores mencionados anteriormente.
+ 
+    - Identificação das variáveis     
+    - Modelagem da função objetivo
+    - Definir as restrições
+    - Executar a otimização
 
 
 <h2 id="associacao">
