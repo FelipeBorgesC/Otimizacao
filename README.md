@@ -135,12 +135,12 @@
 
 <h2 id="multi-obj">
   
-[Múltiplos Objetivos](https://github.com/manoelakohler/DataMining/tree/main/05_Agrupamento)
+[Múltiplos Objetivos](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%205%20-%20M%C3%BAltiplos%20Objetivos)
   
 </h2>
 
 <h2 id="complementar">
   
-[Material Complementar](https://github.com/manoelakohler/DataMining/tree/main/05_Agrupamento)
+[Material Complementar](https://github.com/FelipeBorgesC/Otimizacao/tree/main/)
   
 </h2>
