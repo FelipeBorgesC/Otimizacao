@@ -6,8 +6,8 @@
 - [Introdução OAG](#introducao-oag)
 - [Representação, Decodificação e Avaliação](#represent-decod-avaliacao)
 - [Operadores Genéticos](#operadores)
-- [Associação](#associação)
-- [Agurpoamento](#agrupamento)
+- [Restrições](#restricao)
+- [Múltiplos Objetivos](#multi-obj)
 - [Regressão](#regressao)
 - [Previsão de Séries Temporais](#series)
 
@@ -82,7 +82,7 @@
     - Steady State
 
 
- - **Resolução Exercícios:** Resolução dos exercícios abordados na aula anterior [`Aula 2 Resolvido.xlsx`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%203%20-%20Operadores%20Gen%C3%A9ticos/Resolu%C3%A7%C3%A3o%20Aula%202/Aula%202%20Resolvido.xlsx). Respostas dos exercicios comentados na aula 02.
+ - **Resolução Exercícios:** Resolução dos exercícios abordados na aula anterior [`Aula 2 Resolvido.xlsx`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%203%20-%20Operadores%20Gen%C3%A9ticos/Resolu%C3%A7%C3%A3o%20Aula%202/Aula%202%20Resolvido.xlsx). Respostas dos exercicios comentados na aula 02 (Breakout Room).
  
     - Normalização      
     - Windowing
@@ -101,37 +101,43 @@
     - Executar a otimização
 
 
-<h2 id="associacao">
+<h2 id="restricao">
   
-[Associação](https://github.com/manoelakohler/DataMining/tree/main/04_Associa%C3%A7%C3%A3o)
+[Restrições](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%204%20-%20Tratamento%20de%20Restri%C3%A7%C3%B5es)
   
 </h2>
 
- - **Transações em um mercado francês:** Entendimento, pré processamento e associação de itens de um mercado utilizando o algoritmo Apriori [`Market_Apriori.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/04_Associa%C3%A7%C3%A3o/Market_Apriori.ipynb) e o FP-Growth [`Market_FPGrowth.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/04_Associa%C3%A7%C3%A3o/Market_FPGrowth.ipynb). Lista de transações (compras) em um mercado francês: Cada linha da base é uma transação; Cada transação tem de 1 a N itens; Existem 119 produtos diferentes no mercado; Base tem 7501 transações feitas no decorrer de 1 semana.
+ - **Aula 04:** Tratamento de Restrições e Aplicações Variadas [`Aula 4 - OAG.pdf`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%204%20-%20Tratamento%20de%20Restri%C3%A7%C3%B5es/Aula%204%20-%20OAG.pdf). Conteúdo abordado sobre o tema de restrições. Tipos de restrições, formas de lidar com as restrições e os mecanismos para corrigir indivíduos inválidos. Além disso, mais algumas aplicações de otimização.
  
-    - Pré processamento
-      - Transformação de transações em uma matriz esparsa
-    - Inferência (classificação)
-      - Apriori
-      - FP-Growth
-    - Pós processamento
-      - Geração de regras a partir de conjuntos de itens frequentes
+    - Tipos de restrições
+    - Tratamento de restrições
+    - Mecanismos de correção
 
-<h2 id="agrupamento">
+
+ - **Resolução Exercícios:** Resolução dos exercícios abordados na aula anterior [`Aula 3 Resolvido.xlsx`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%204%20-%20Tratamento%20de%20Restri%C3%A7%C3%B5es/Resolu%C3%A7%C3%A3o%20Aula%203/Aula%203%20Resolvido.xlsx). Respostas dos exercicios comentados na aula 03 (Breakout Room).
+ 
+    - Sem elitismo      
+    - Com elitismo
+
+
+- **Solução Telecom:** Solução parte A do exercício de alocação de antenas de telecomunicações [`Solução Telecom A`](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%204%20-%20Tratamento%20de%20Restri%C3%A7%C3%B5es/Resolu%C3%A7%C3%A3o%20Telecom). Solução do exercício de Telecom da parte A.
+ 
+    - [Excel usando o Solver](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%204%20-%20Tratamento%20de%20Restri%C3%A7%C3%B5es/Resolu%C3%A7%C3%A3o%20Telecom/Solu%C3%A7%C3%A3o%20Telecom%20-%20Parte%20A.xlsx)
+    - [Python usando DEAP](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%204%20-%20Tratamento%20de%20Restri%C3%A7%C3%B5es/Resolu%C3%A7%C3%A3o%20Telecom/Solu%C3%A7%C3%A3o%20Telecom%20-%20Parte%20A.ipynb)
+
+
+- **Exercício Fábrica:** Exercicio para praticar sobre produção industrial [`Exercicio Fabrica.pdf`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%204%20-%20Tratamento%20de%20Restri%C3%A7%C3%B5es/F%C3%A1brica/Exercicio%20Fabrica.pdf). Exercicio para praticar os conhecimentos de otimização. Identificar os principais pilares para aplicação de um otimizador. Buscar resolver o problema através dos otimizadores mencionados anteriormente.
+ 
+    - Identificação das variáveis     
+    - Modelagem da função objetivo
+    - Definir as restrições
+    - Executar a otimização
+
+
+<h2 id="multi-obj">
   
-[Agrupamento](https://github.com/manoelakohler/DataMining/tree/main/05_Agrupamento)
+[Múltiplos Objetivos](https://github.com/manoelakohler/DataMining/tree/main/05_Agrupamento)
   
 </h2>
 
-<h2 id="regressao">
-  
-[Regressão](https://github.com/manoelakohler/DataMining/tree/main/06_Regress%C3%A3o)
-  
-</h2>
-
-<h2 id="series">
-  
-[Previsão de Séries Temporais](https://github.com/manoelakohler/DataMining/tree/main/07_Previs%C3%A3o_de_S%C3%A9ries_Temporais)
-  
-</h2>
 
