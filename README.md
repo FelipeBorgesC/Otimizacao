@@ -154,6 +154,6 @@
   
 </h2>
 
- - **Material Extra:** Diversos exercícios de otimização [`Material extra`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%205%20-%20M%C3%BAltiplos%20Objetivos/Aula%205%20-%20OAG.pdf). Material extra com diversos exercícios de otimização desde os mais básicos até os mais complexos. Alguns com a resolução em Excel, outros em Python e até mesmo em Matlab.
+ - **Material Extra:** Diversos exercícios de otimização [`Material extra`](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%206%20-%20Material%20Extra). Material extra com diversos exercícios de otimização desde os mais básicos até os mais complexos. Alguns com a resolução em Excel, outros em Python e até mesmo em Matlab.
 
 
