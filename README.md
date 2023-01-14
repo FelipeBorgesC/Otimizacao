@@ -139,8 +139,21 @@
   
 </h2>
 
+ - **Aula 05:** Tratamento de Restrições e Aplicações Variadas [`Aula 5 - OAG.pdf`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%205%20-%20M%C3%BAltiplos%20Objetivos/Aula%205%20-%20OAG.pdf). Conteúdo sobre o tema de múltiplas funções objetivo. Fundamento de múltiplos objetivos, métodos de solução para problemas com múltiplos objetivos. Exemplos de exercícios com mais de um objetivo presente e as diferentes técnicas de solução.
+
+
+ - **Resolução Exercícios:** Resolução dos exercícios abordados na aula anterior [`Resolução Fábrica e Plantação`](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%205%20-%20M%C3%BAltiplos%20Objetivos/Resolu%C3%A7%C3%A3o%20F%C3%A1brica%20e%20Planta%C3%A7%C3%A3o). E do exercicio [`Resolução Telecom`](https://github.com/FelipeBorgesC/Otimizacao/tree/main/Aula%205%20-%20M%C3%BAltiplos%20Objetivos/Resolu%C3%A7%C3%A3o%20Telecom).
+ 
+    - Plantação e Fábrica - Exercício de otimização com restrições lineares      
+    - Telecom parte B e C - Exercício de otimização com restrições não-lineares
+
+
 <h2 id="complementar">
   
 [Material Complementar](https://github.com/FelipeBorgesC/Otimizacao/tree/main/)
   
 </h2>
+
+ - **Material Extra:** Diversos exercícios de otimização [`Material extra`](https://github.com/FelipeBorgesC/Otimizacao/blob/main/Aula%205%20-%20M%C3%BAltiplos%20Objetivos/Aula%205%20-%20OAG.pdf). Material extra com diversos exercícios de otimização desde os mais básicos até os mais complexos. Alguns com a resolução em Excel, outros em Python e até mesmo em Matlab.
+
+
